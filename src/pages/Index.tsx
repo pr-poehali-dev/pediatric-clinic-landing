@@ -23,27 +23,32 @@ const Index = () => {
     {
       title: 'ЛОР',
       icon: 'Ear',
-      description: 'Лечение заболеваний уха, горла и носа. Диагностика и терапия острых и хронических патологий ЛОР-органов у детей.'
+      description: 'Лечение заболеваний уха, горла и носа. Диагностика и терапия острых и хронических патологий ЛОР-органов у детей.',
+      image: 'https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/ae825400-71d6-4d80-ad6c-7a001423faf7.jpg'
     },
     {
       title: 'Хирургия',
       icon: 'Scissors',
-      description: 'Плановые и экстренные хирургические вмешательства. Современные методики и минимально инвазивные операции.'
+      description: 'Плановые и экстренные хирургические вмешательства. Современные методики и минимально инвазивные операции.',
+      image: 'https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/bfe165aa-e632-49cf-8405-6ab56798e4bf.jpg'
     },
     {
       title: 'Челюстно-лицевая хирургия',
       icon: 'Smile',
-      description: 'Коррекция врожденных и приобретенных дефектов челюстно-лицевой области у детей.'
+      description: 'Коррекция врожденных и приобретенных дефектов челюстно-лицевой области у детей.',
+      image: 'https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/066fc0a8-d065-4182-8e18-99866df0425d.jpg'
     },
     {
       title: 'Урология',
       icon: 'Droplet',
-      description: 'Диагностика и лечение урологических заболеваний. Современное оборудование и опытные специалисты.'
+      description: 'Диагностика и лечение урологических заболеваний. Современное оборудование и опытные специалисты.',
+      image: 'https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/52301588-7d8f-4541-b6f8-1f78d9e03d40.jpg'
     },
     {
       title: 'Эндоскопия',
       icon: 'Search',
-      description: 'Современные эндоскопические методы диагностики и лечения. Малотравматичные процедуры с быстрым восстановлением.'
+      description: 'Современные эндоскопические методы диагностики и лечения. Малотравматичные процедуры с быстрым восстановлением.',
+      image: 'https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/4efbcf0b-0f73-4766-9665-02ac3ab7bcad.jpg'
     }
   ];
 
@@ -74,21 +79,24 @@ const Index = () => {
       title: 'Новое оборудование в отделении ЛОР',
       date: '15 октября 2025',
       preview: 'В отделении установлено современное диагностическое оборудование',
-      content: 'Мы рады сообщить, что в нашем ЛОР-отделении установлено новейшее диагностическое оборудование от ведущих мировых производителей. Это позволит нам проводить более точную диагностику и повысить качество лечения наших маленьких пациентов.'
+      content: 'Мы рады сообщить, что в нашем ЛОР-отделении установлено новейшее диагностическое оборудование от ведущих мировых производителей. Это позволит нам проводить более точную диагностику и повысить качество лечения наших маленьких пациентов.',
+      image: 'https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/ae825400-71d6-4d80-ad6c-7a001423faf7.jpg'
     },
     {
       id: 2,
       title: 'Успешное проведение сложной операции',
       date: '10 октября 2025',
       preview: 'Команда хирургов успешно провела сложную челюстно-лицевую операцию',
-      content: 'Наша команда челюстно-лицевых хирургов успешно провела сложнейшую операцию по коррекции врожденного дефекта. Благодаря опыту специалистов и современному оборудованию, операция прошла успешно, пациент идет на поправку.'
+      content: 'Наша команда челюстно-лицевых хирургов успешно провела сложнейшую операцию по коррекции врожденного дефекта. Благодаря опыту специалистов и современному оборудованию, операция прошла успешно, пациент идет на поправку.',
+      image: 'https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/bfe165aa-e632-49cf-8405-6ab56798e4bf.jpg'
     },
     {
       id: 3,
       title: 'День открытых дверей',
       date: '5 октября 2025',
       preview: 'Приглашаем на день открытых дверей нашего отделения',
-      content: 'Приглашаем всех желающих на день открытых дверей нашего стационара. Вы сможете познакомиться с врачами, увидеть палаты и современное оборудование, задать интересующие вопросы.'
+      content: 'Приглашаем всех желающих на день открытых дверей нашего стационара. Вы сможете познакомиться с врачами, увидеть палаты и современное оборудование, задать интересующие вопросы.',
+      image: 'https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/066fc0a8-d065-4182-8e18-99866df0425d.jpg'
     }
   ];
 
@@ -158,11 +166,23 @@ const Index = () => {
 
       <section id="about" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center mb-16">
-            <h3 className="text-4xl font-bold mb-6">О нас</h3>
-            <p className="text-lg text-muted-foreground mb-8">
-              Мы предлагаем вам уникальный опыт в лечении широкого спектра заболеваний в рамках ОМС для всех граждан РФ до 18 лет, а также мультидисциплинарную помощь для наших пациентов из-за рубежа.
-            </p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-4xl font-bold mb-6">О нас</h3>
+              <p className="text-lg text-muted-foreground mb-6">
+                Мы предлагаем вам уникальный опыт в лечении широкого спектра заболеваний в рамках ОМС для всех граждан РФ до 18 лет, а также мультидисциплинарную помощь для наших пациентов из-за рубежа.
+              </p>
+              <p className="text-base text-muted-foreground">
+                Наша команда врачей использует передовые технологии и методики, доказавшие свою эффективность в ведущих клиниках мира.
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="https://cdn.poehali.dev/projects/41173580-1043-4c45-aec2-d3069ddce142/files/475030f9-dd3a-4f8d-9b7f-3c015c8de55f.jpg"
+                alt="Медицинская команда"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -271,13 +291,22 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {directions.map((direction, index) => (
-              <Card key={index} className="border-2 hover:border-primary transition-all hover:shadow-xl group">
-                <CardContent className="p-8">
-                  <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:scale-110 transition-all">
-                    <Icon name={direction.icon as any} className="text-primary group-hover:text-white" size={32} />
+              <Card key={index} className="overflow-hidden border-2 hover:border-primary transition-all hover:shadow-xl group">
+                <div className="aspect-video overflow-hidden">
+                  <img 
+                    src={direction.image} 
+                    alt={direction.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                      <Icon name={direction.icon as any} className="text-primary" size={24} />
+                    </div>
+                    <h4 className="text-xl font-bold">{direction.title}</h4>
                   </div>
-                  <h4 className="text-2xl font-bold mb-4">{direction.title}</h4>
-                  <p className="text-muted-foreground">{direction.description}</p>
+                  <p className="text-muted-foreground text-sm">{direction.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -403,12 +432,19 @@ const Index = () => {
             {news.map((item) => (
               <Card 
                 key={item.id} 
-                className="cursor-pointer hover:shadow-xl transition-all hover:-translate-y-1"
+                className="overflow-hidden cursor-pointer hover:shadow-xl transition-all hover:-translate-y-1 group"
                 onClick={() => {
                   setSelectedNews(item);
                   setNewsOpen(true);
                 }}
               >
+                <div className="aspect-video overflow-hidden">
+                  <img 
+                    src={item.image} 
+                    alt={item.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
                 <CardContent className="p-6">
                   <p className="text-sm text-primary font-semibold mb-3">{item.date}</p>
                   <h4 className="text-xl font-bold mb-3">{item.title}</h4>
